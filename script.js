@@ -21,7 +21,7 @@ function generateCountry() {
         const friendNameElement = document.getElementById('friendName');
         const countryNameElement = document.getElementById('countryName');
         friendNameElement.innerText = `${nameInput}, your fate awaits...`;
-        countryNameElement.innerText = `You might end up in ${country}!`;
+        countryNameElement.innerText = `You Will end up in ${country}!`;
         popup.style.display = 'block';
     } else {
         // Display an error message if the name is not found
