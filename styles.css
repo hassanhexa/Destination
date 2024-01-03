@@ -1,6 +1,6 @@
 body {
-    font-family: 'Poppins';
-    background-color: f2ffa0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5; /* Soft and subtle background color */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 .container {
     text-align: center;
-    color: #fff;
+    color: #333; /* Adjusted text color for better contrast */
 }
 
 form {
@@ -56,6 +56,6 @@ button {
 }
 
 .horror-font {
-    font-family: 'Creepster', cursive;
+    font-family: 'Nosifer', cursive; /* A different horror-themed font */
     color: #ff6347;
 }
