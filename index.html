@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Country Pop-Up Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Final Destination</title>
 </head>
 <body>
     <div class="container">
-        <h1>Country Pop-Up Game</h1>
+        <h1 class="horror-font">Final Destination</h1>
         <form id="nameForm">
             <label for="name">Enter your name:</label>
             <input type="text" id="name" required>
-            <button type="button" onclick="generateCountry()">Generate Country</button>
+            <button type="button" onclick="generateCountry()">Find Your Fate</button>
         </form>
     </div>
 
     <div id="popup" class="popup">
         <span class="close" onclick="closePopup()">&times;</span>
-        <h2 id="countryName">Your Future Country</h2>
-        <p id="countryMessage"></p>
-        <img id="countryImage" src="" alt="Country Image">
-        <button id="shareButton" onclick="shareResult()">Share on Social Media</button>
+        <h2 id="friendName">Your Fate Awaits...</h2>
+        <p id="countryName"></p>
     </div>
 
     <script src="script.js"></script>
