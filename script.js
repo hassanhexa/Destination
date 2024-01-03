@@ -1,15 +1,15 @@
 function generateCountry() {
-    const nameInput = document.getElementById('name').value;
+    const nameInput = document.getElementById('name').value.toLowerCase();
     const friends = {
-        Hassan: 'JANNAT',
-        Arslan: 'SAUDIA ARABIA',
-        Hamza: 'NORWAY',
-        Jahanzaib: 'MEXICO',
-        Ruman: 'AFGHANISTAN',
-        Khizar: 'PALESTINE',
-        Hammad: 'INDIA',
-        Osama: 'USA',
-        Shajee: 'IRAN',
+        hassan: 'JANNAT',
+        arslan: 'SAUDIA ARABIA',
+        hamza: 'NORWAY',
+        jahanzaib: 'MEXICO',
+        ruman: 'AFGHANISTAN',
+        khizar: 'PALESTINE',
+        hammad: 'INDIA',
+        osama: 'USA',
+        shajee: 'IRAN',
     };
 
     // Check if the entered name is in the friends list
@@ -27,9 +27,4 @@ function generateCountry() {
         // Display an error message if the name is not found
         alert('Sorry, the name is not in the list of friends.');
     }
-}
-
-function closePopup() {
-    const popup = document.getElementById('popup');
-    popup.style.display = 'none';
 }
